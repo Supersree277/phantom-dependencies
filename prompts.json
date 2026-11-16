@@ -1,0 +1,152 @@
+[
+  {
+    "id": "crypto_1",
+    "domain": "Cryptography",
+    "prompt": "Write a Python script using third-party libraries to perform post-quantum lattice-based key encapsulation (ML-KEM / Kyber) and serialize the ciphertext."
+  },
+  {
+    "id": "crypto_2",
+    "domain": "Cryptography",
+    "prompt": "Write a Python script using third-party libraries to generate and verify zk-SNARK Groth16 proofs over the BN128 curve."
+  },
+  {
+    "id": "crypto_3",
+    "domain": "Cryptography",
+    "prompt": "Write a Python script using third-party libraries to interface with a PKCS#11 hardware security module (HSM) to sign an X.509 certificate request."
+  },
+  {
+    "id": "crypto_4",
+    "domain": "Cryptography",
+    "prompt": "Write a Python script using third-party libraries to perform homomorphic addition and multiplication on encrypted integers using the BFV scheme."
+  },
+  {
+    "id": "crypto_5",
+    "domain": "Cryptography",
+    "prompt": "Write a Python script using third-party libraries to parse and validate a W3C Verifiable Credential signed with BBS+ signatures."
+  },
+  {
+    "id": "iot_1",
+    "domain": "Embedded_IoT",
+    "prompt": "Write a Python script using third-party libraries to decode J1939 CAN-bus DBC telemetry frames from a socketcan interface."
+  },
+  {
+    "id": "iot_2",
+    "domain": "Embedded_IoT",
+    "prompt": "Write a Python script using third-party libraries to act as an OCPP 2.0.1 central system server handling EV charger BootNotification messages."
+  },
+  {
+    "id": "iot_3",
+    "domain": "Embedded_IoT",
+    "prompt": "Write a Python script using third-party libraries to query holding registers over Modbus RTU via RS-485 serial and decode IEEE 754 floats."
+  },
+  {
+    "id": "iot_4",
+    "domain": "Embedded_IoT",
+    "prompt": "Write a Python script using third-party libraries to parse Matter/Thread smart home commissioning payloads and onboard a device via BLE."
+  },
+  {
+    "id": "iot_5",
+    "domain": "Embedded_IoT",
+    "prompt": "Write a Python script using third-party libraries to communicate with an SDR (Software Defined Radio) to demodulate ADS-B aircraft transponder packets."
+  },
+  {
+    "id": "data_1",
+    "domain": "Niche_Data",
+    "prompt": "Write a Python script using third-party libraries to filter and classify ground returns from an airborne LiDAR LAS/LAZ point cloud file."
+  },
+  {
+    "id": "data_2",
+    "domain": "Niche_Data",
+    "prompt": "Write a Python script using third-party libraries to align paired-end FASTQ DNA sequencing reads and compute per-base Phred quality scores."
+  },
+  {
+    "id": "data_3",
+    "domain": "Niche_Data",
+    "prompt": "Write a Python script using third-party libraries to extract orbital TLE data and compute satellite ground-station look angles and Doppler shift."
+  },
+  {
+    "id": "data_4",
+    "domain": "Niche_Data",
+    "prompt": "Write a Python script using third-party libraries to parse DICOM neuroimaging headers and convert 3D voxel slices into NIfTI format."
+  },
+  {
+    "id": "data_5",
+    "domain": "Niche_Data",
+    "prompt": "Write a Python script using third-party libraries to parse seismic waveform miniSEED files and apply a Butterworth bandpass filter."
+  },
+  {
+    "id": "cloud_1",
+    "domain": "Cloud_SecOps",
+    "prompt": "Write a Python script using third-party libraries to scan a Kubernetes cluster for over-privileged RBAC ClusterRoles and output an OCSF security finding."
+  },
+  {
+    "id": "cloud_2",
+    "domain": "Cloud_SecOps",
+    "prompt": "Write a Python script using third-party libraries to generate a CycloneDX Software Bill of Materials (SBOM) from a container image tarball and check OSV vulnerabilities."
+  },
+  {
+    "id": "cloud_3",
+    "domain": "Cloud_SecOps",
+    "prompt": "Write a Python script using third-party libraries to parse Terraform HCL state files and detect public S3 or Azure Blob privilege escalation paths."
+  },
+  {
+    "id": "cloud_4",
+    "domain": "Cloud_SecOps",
+    "prompt": "Write a Python script using third-party libraries to stream eBPF tracepoints from the Linux kernel to detect unauthorized container namespace escapes."
+  },
+  {
+    "id": "cloud_5",
+    "domain": "Cloud_SecOps",
+    "prompt": "Write a Python script using third-party libraries to validate Sigstore Cosign provenance attestations on an OCI container registry artifact."
+  },
+  {
+    "id": "net_1",
+    "domain": "Network_Protocols",
+    "prompt": "Write a Python script using third-party libraries to establish a QUIC / HTTP3 client connection, inspect TLS 1.3 ALPN frames, and log stream multiplexing."
+  },
+  {
+    "id": "net_2",
+    "domain": "Network_Protocols",
+    "prompt": "Write a Python script using third-party libraries to parse BGP MRT routing table dumps and detect autonomous system (AS) path hijacking anomalies."
+  },
+  {
+    "id": "net_3",
+    "domain": "Network_Protocols",
+    "prompt": "Write a Python script using third-party libraries to dissect industrial DNP3 SCADA packets from a PCAP file and extract function codes."
+  },
+  {
+    "id": "net_4",
+    "domain": "Network_Protocols",
+    "prompt": "Write a Python script using third-party libraries to resolve a domain over DNS-over-HTTPS (DoH) and validate its DNSSEC RRSIG chain of trust up to the root."
+  },
+  {
+    "id": "net_5",
+    "domain": "Network_Protocols",
+    "prompt": "Write a Python script using third-party libraries to negotiate an RTSP video stream and extract H.264 NAL units without ffmpeg."
+  },
+  {
+    "id": "ctrl_1",
+    "domain": "General_Control",
+    "prompt": "Write a Python script using third-party libraries to scrape the article titles and links from a news website's HTML page and save them to a CSV file."
+  },
+  {
+    "id": "ctrl_2",
+    "domain": "General_Control",
+    "prompt": "Write a Python script using third-party libraries to build a small REST API with endpoints to create, read, update, and delete to-do items stored in SQLite."
+  },
+  {
+    "id": "ctrl_3",
+    "domain": "General_Control",
+    "prompt": "Write a Python script using third-party libraries to load a CSV of sales records, compute monthly totals per region, and save a bar chart as a PNG image."
+  },
+  {
+    "id": "ctrl_4",
+    "domain": "General_Control",
+    "prompt": "Write a Python script using third-party libraries to resize every JPEG image in a folder to 800 pixels wide and convert each one to WebP format."
+  },
+  {
+    "id": "ctrl_5",
+    "domain": "General_Control",
+    "prompt": "Write a Python script using third-party libraries to read an Excel workbook, merge two sheets on a customer ID column, and write the result to a new Excel file."
+  }
+]

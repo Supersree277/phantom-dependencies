@@ -1,0 +1,9 @@
+# API keys and local settings: never commit these
+.env
+*.key
+# Study outputs: keep the list of unregistered package names out of public view
+results/
+labels/
+# Python
+__pycache__/
+*.pyc
