@@ -100,6 +100,7 @@ details, including the manual review step.
 - No hallucinated name was registered, not even as a placeholder.
 - The raw results and the full list of unregistered names are **not** in this repository, so it doesn't hand out a
   target list.
+- Names suggested repeatedly were reported to the PyPI security team on 17 November 2026.
 
 ## Credits
 
