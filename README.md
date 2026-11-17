@@ -10,10 +10,11 @@ Research poster for the Purdue Undergraduate Research Conference (ENGL 304), Sre
 
 ## Results (run in November 2026)
 
-Seven models each answered 30 Python coding prompts 5 times (1,050 replies). Every package name they listed was
-checked against the live PyPI index.
+Seven models each answered 30 Python coding prompts 5 times (1,050 replies), run on 16 November 2026 through
+OpenRouter (exact model IDs in [`config.py`](config.py)). Every package name they listed was checked against the
+live PyPI index.
 
-| Model | Tier | Names checked | Not on PyPI (95% CI) | No project by that name found |
+| Model | Tier | Package mentions checked* | Not on PyPI (95% CI) | No project by that name found |
 |---|---|---|---|---|
 | Claude Sonnet 5.5 | Frontier | 299 | 0.0% (0–1.3) | 0.0% |
 | GPT-6 Sol | Frontier | 272 | 0.4% (0.1–2.1) | 0.4% |
@@ -22,6 +23,9 @@ checked against the live PyPI index.
 | DeepSeek V4.1 Flash | Open-weight | 291 | 2.1% (1.0–4.4) | 0.3% |
 | Llama 4 Scout | Open-weight | 334 | **17.4%** (13.7–21.8) | 7.5% |
 | GPT-4o mini | 2024 baseline | 386 | **8.8%** (6.4–12.1) | 2.1% |
+
+\* Each package listed in a reply counts once per reply, so a name suggested in all 5 runs counts 5 times. Rates are
+missing mentions ÷ mentions checked.
 
 - **"Not on PyPI"** is the attack surface: every one of these names could be registered by anyone.
 - **"No project by that name found"** is the stricter count after a manual review: names with no Python project
@@ -33,6 +37,9 @@ checked against the live PyPI index.
   which makes them predictable targets.
 
 Replies to the same prompt are related, so read the confidence intervals and the differences between models as descriptive.
+
+The counts behind this table are in [`data/`](data): per-model and per-domain summaries and the per-model
+review-label counts. They contain no package names. The full name list is available to researchers on request.
 
 ## How it works
 
@@ -68,7 +75,8 @@ Needs Python 3.10+ and an [OpenRouter](https://openrouter.ai) API key. No other 
 
 ```
 python selftest.py
-set OPENROUTER_API_KEY=sk-or-...        # Mac/Linux: export OPENROUTER_API_KEY="sk-or-..."
+set OPENROUTER_API_KEY=sk-or-...        # Windows cmd
+:: PowerShell: $env:OPENROUTER_API_KEY="sk-or-..."    Mac/Linux: export OPENROUTER_API_KEY="sk-or-..."
 python generate.py check
 python generate.py run --out main --workers 6
 python analyze.py --run main
@@ -95,8 +103,9 @@ details, including the manual review step.
 
 ## Credits
 
-Study design, prompts, model runs, manual review and interpretation: Sreekar Sreeram.
-The code was written with the help of Claude (Anthropic) and was reviewed, tested and run by the author.
+Sreekar Sreeram designed the study and its prompts, chose the models, ran every experiment, diagnosed the
+cut-off replies, did the manual review and interpreted the results. The pipeline code was developed with an AI
+coding assistant (Claude, Anthropic) and tested by the author.
 Thanks to Dr. Karrie Kaiser Lee (ENGL 304, Purdue University).
 
 ## References
