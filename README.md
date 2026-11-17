@@ -101,8 +101,15 @@ Thanks to Dr. Karrie Kaiser Lee (ENGL 304, Purdue University).
 
 ## References
 
-- Churilov, A. (2026). *The range shrinks, the threat remains.*
-- Korolevski (2025). JFrog.
-- Krishna, A., et al. (2025). *Importing phantoms: Measuring LLM package hallucination vulnerabilities.*
-- Spracklen, J., et al. (2025). *We have a package for you! A comprehensive analysis of package hallucinations by
-  code generating LLMs.* USENIX Security Symposium.
+- Churilov, A. (2026). *The range shrinks, the threat remains: Re-evaluating LLM package hallucinations on the
+  2026 frontier-model cohort* [Preprint]. Zenodo. https://doi.org/10.5281/zenodo.19859120
+- Korolevski, G. (2025, April 15). Malicious PyPI package hijacks MEXC orders, steals crypto tokens. *JFrog Blog*.
+  https://jfrog.com/blog/malicious-pypi-package-hijacks-mexc-orders-steals-crypto-tokens/
+- Krishna, A., Galinkin, E., Derczynski, L., & Martin, J. (2025). *Importing phantoms: Measuring LLM package
+  hallucination vulnerabilities* (arXiv:2501.19012). arXiv. https://doi.org/10.48550/arXiv.2501.19012
+- Spracklen, J., Wijewickrama, R., Sakib, A. H. M. N., Maiti, A., Viswanath, B., & Jadliwala, M. (2025). We have a
+  package for you! A comprehensive analysis of package hallucinations by code generating LLMs. In *Proceedings of
+  the 34th USENIX Security Symposium* (pp. 3687–3706). USENIX Association.
+  https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen
+
+The full literature review (16 sources) is available from the author.
